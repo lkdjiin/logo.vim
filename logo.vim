@@ -1,7 +1,7 @@
 " Vim syntax file
 " Language:    Logo
 " Maintainer:  Xavier Nayrac <xavier.nayrac@gmail.com>
-" Version:     0.4.0
+" Version:     0.5.0
 " URL:	       
 
 if version < 600
@@ -21,7 +21,7 @@ syn keyword logoRepeat repeat for forever foreach
 " Polish keywords (imagine)
 syn keyword LogoKeyword naprzód wstecz prawo lewo powtórz np ws pw lw hop to już cs pokaż czekaj
 syn keyword LogoConditional ustalKolPis ustalKolMal ustalGrubość ukp ukm ugp jdl [pod]nieś opu[ść] zam[aluj] okrąg koło kwa[drat] trójkąt słuchaj powiedz lista
-syn keyword LogoRepeat for nowaklasa pisz[wiersz] nowy przypisz nazwij jdl
+syn keyword LogoRepeat nowaklasa pisz[wiersz] nowy przypisz nazwij jdl
 
 " Comment -------------------------------------------------------------
 syn match logoComment /;.*/
