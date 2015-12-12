@@ -18,6 +18,10 @@ syn keyword logoKeyword bye end stop output
 syn keyword logoConditional if ifelse iffalse iff iftrue ift test and or not
 syn keyword logoRepeat repeat for forever foreach
 
+" Polish keywords (imagine)
+syn keyword LogoKeyword naprzód wstecz prawo lewo powtórz np ws pw lw hop to już cs pokaż czekaj
+syn keyword LogoConditional ustalKolPis ustalKolMal ustalGrubość ukp ukm ugp jdl [pod]nieś opu[ść] zam[aluj] okrąg koło kwa[drat] trójkąt słuchaj powiedz lista
+syn keyword LogoRepeat for nowaklasa pisz[wiersz] nowy przypisz nazwij jdl
 
 " Comment -------------------------------------------------------------
 syn match logoComment /;.*/
